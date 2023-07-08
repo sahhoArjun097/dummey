@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex:1;
+    width: 100%;
+    position:fixed;
+    background-color: white;
+    justify-content:space-between;
+}
+.left-header{
+    margin-left: 22px;
+    font-weight: 600;
+    align-items: left;
+    display: flex;
+    color: rgba(0, 0, 0, 0.700);
+}
+
+
+.blue{
+    color: rgb(11, 110, 153);
+}
+
+.sub-header{
+    font-size: 22px;
+    font-weight: bold;
+}
+.intro-p{
+    width: 663px;
+    line-height: 25px;
+}
+.resume{
+    background-color:rgb(39, 39, 39);
+    color: white;
+    font-size: medium;
+    margin-right: 20px;
+    border: none;
+    height: 35px;
+    width: 85px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.skills{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(100, 71, 58);
+    margin-top: 50px;
+    display:inline-block;
+    transition: .3s ease;
+
+}
+.skills:hover{
+    font-size: 42px;
+}
+ul{
+    line-height: 50px;
+    color: rgb(55, 53, 47);
+    opacity: 0.7;
+}
+li{
+    font-size: 18px;
+    transition: 0.2s ease;
+    text-decoration: underline;
+    display: inline-block;
+}
+li:hover{
+    font-size: 22px;
+}
+
+.abtwork{
+    margin-top: 0px;
+}
+.work{
+    font-size: 36px;
+    font-weight: 550;
+    color: rgb(15, 123, 108);
+    margin-top: 50px;
+    display:inline-block;
+    transition: .3s ease;
+}
+.work:hover{
+    font-size: 42px;
+}
+.intro{
+    margin-top: 110px;
+    margin-left: 100px;
+
+}
+h1{
+    font-size: 40px;
+}
+.resume:hover{
+    background-color:rgb(95, 150, 150);
+}
+.header-img{
+    display:flex;
+    flex: 1;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 35px;
+}
